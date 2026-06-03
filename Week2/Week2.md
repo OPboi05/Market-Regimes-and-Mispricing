@@ -1,6 +1,8 @@
 # Week 1
 As proposed, we will be covering regression (and other time series modeling techniques) to find the relationship between two highly correlated datasets. You will also implement the Engle-Granger method to check whether the spread is stationary, and find the half-life of their mean reversion to generate signals.
 Make sure to follow the content well at your own pace.
+---
+Some topics maybe completely new to you, please do ask us on how to ramp-up in that case. We'll be happy to help :D
 
 ## Correlation (trap?)
 A common pitfall in quantitative finance is assuming that two assets with a high correlation coefficient (like Pearson's $\rho$) can be traded as a mean-reverting pair. Correlation only measures the linear relationship between two variables over a specific time frame. Two tech stocks might both be trending upward in a bull market, yielding a correlation of 0.95. However, if their price difference (the spread) is not bounded, they can eventually diverge permanently, blowing up your account.
